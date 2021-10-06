@@ -1,0 +1,119 @@
+[   
+    {
+        "firstName" : "Tim",
+        "lastName" : "De Saeger",
+        "email" : "timdesae@student.arteveldehs.be",
+        "thumbnail" : "https://avatars0.githubusercontent.com/u/32261568?s=400&u=f3cdc7182013c03b6cf76de6d18ba5b203b71600&v=4",
+        "moto" : "First, solve the problem. Then, write the code.",
+        "portfolio" : {
+            "gitHubUserName" : "pgm-timdesae",
+            "linkedInUserName" : "Tim De Saeger"
+        },
+        "isStudent" : true,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Jamie-Lee",
+        "lastName" : "Hart",
+        "email" : "jami.hart@student.arteveldehs.be",
+        "thumbnail" : "https://avatars1.githubusercontent.com/u/71268169?s=400&u=9ca2eca7d5d24b24fd39229a3317b7e7a511b835&v=4",
+        "moto" : "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+        "portfolio" : {
+            "gitHubUserName" : "pgm-jamihart",
+            "linkedInUserName" : "Jamie-lee Hart"
+        },
+        "isStudent" : true,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Philippe",
+        "lastName" : "De Pauw - Waterschoot",
+        "email" : "drdynscript@gmail.com",
+        "thumbnail" : "https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/15732220_10209570242046594_9006794810771618775_o.jpg?_nc_cat=107&ccb=2&_nc_sid=174925&_nc_ohc=xCtfeYE1ZWkAX_OQIdW&_nc_ht=scontent-bru2-1.xx&oh=d075871a18c0b737aa11053196df3955&oe=60114F09",
+        "moto" : "Experience is the name everyone gives to their mistakes.",
+        "portfolio" : {
+            "gitHubUserName" : "drdynscript",
+            "linkedInUserName" : ""
+        },
+        "isStudent" : false,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Thibault",
+        "lastName" : "Fouquaert",
+        "email" : "Thibault.Fouquaert@arteveldehs.be",
+        "thumbnail" : "https://avatars2.githubusercontent.com/u/10938848?s=400&u=aa341c6a67eb50e75465013c57c603b568dc9874&v=4",
+        "moto" : "Experience is the name everyone gives to their mistakes.",
+        "portfolio" : {
+            "gitHubUserName" : "Thibaultfq",
+            "linkedInUserName" : "Thibault Fouquaert"
+        },
+        "isStudent" : false,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Dieter",
+        "lastName" : "De Weirdt",
+        "email" : "dieter.deweirdt@arteveldehs.be",
+        "thumbnail" : "https://avatars3.githubusercontent.com/u/6459540?s=400&u=5b38587df5f7e99605545d4bae1b9b567ecd6f90&v=4",
+        "moto" : "Code is like humor. When you have to explain it, it’s bad.",
+        "portfolio" : {
+            "gitHubUserName" : "dieterdeweirdt",
+            "linkedInUserName" : "Dieter De Weirdt"
+        },
+        "isStudent" : false,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Mathieu",
+        "lastName" : "Spillebeen",
+        "email" : "mathieuspillebeen@gmail.com",
+        "thumbnail" : "https://avatars2.githubusercontent.com/u/2550222?s=400&u=5b63c573c2d813cd0e05551940ea273f94fb93f3&v=4",
+        "moto" : "Make it work, make it right, make it fast.",
+        "portfolio" : {
+            "gitHubUserName" : "mathieuspil",
+            "linkedInUserName" : "Mathieu Spillebeen"
+        },
+        "isStudent" : false,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Charlotte",
+        "lastName" : "Delvaux",
+        "email" : "mathieuspillebeen@gmail.com",
+        "thumbnail" : "https://avatars2.githubusercontent.com/u/71268586?s=400&u=1595ef0e8ace466cbd7f947824b3d8e2ca6b8530&v=4",
+        "moto" : "Optimism is an occupational hazard of programming: feedback is the treatment.",
+        "portfolio" : {
+            "gitHubUserName" : "pgm-chardelv1",
+            "linkedInUserName" : "Charlotte"
+        },
+        "isStudent" : true,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Jan",
+        "lastName" : "Deschacht",
+        "email" : "jan.deschacht@student.arteveldehs.be",
+        "thumbnail" : "https://avatars2.githubusercontent.com/u/71695234?s=400&v=4",
+        "moto" : "Fix the cause, not the symptom.",
+        "portfolio" : {
+            "gitHubUserName" : "pgm-jandeschacht",
+            "linkedInUserName" : "Jan Deschacht"
+        },
+        "isStudent" : true,
+        "dayOfBirth" : 903571200
+    },
+    {
+        "firstName" : "Jeroen",
+        "lastName" : "Dewelde",
+        "email" : "jeroen.dewelde@student.arteveldehs.be",
+        "thumbnail" : "https://media-exp1.licdn.com/dms/image/C4D03AQEEuP943y397A/profile-displayphoto-shrink_800_800/0/1571083865401?e=1614816000&v=beta&t=xPT4RodA1UWoxwKyLMhLxVHoYcSqxQ8Q976vGgaoGZ4",
+        "moto" : "In order to be irreplaceable, one must always be different",
+        "portfolio" : {
+            "gitHubUserName" : "pgm-jeroendewelde",
+            "linkedInUserName" : "Jeroen Dewelde"
+        },
+        "isStudent" : true,
+        "dayOfBirth" : 903571200
+    }
+]

@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background:  #282828;
+}
+
+h1,
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h3 {
+  margin: 0.5rem 0;
+}
+
+.h-layout {
+  width: 90rem;
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.flex-layout {
+  display: flex;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background: #282828;
+  padding: 0.5rem 0 0.5rem 5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.header__title {
+  margin-right: auto;
+}
+
+.weather {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  background: #282828;
+  color: rgb(252, 227, 115);
+}
+
+.covid-cases,
+.weather {
+  display: flex;
+  align-items: center;
+  background:  #282828;
+}
+
+.covid-cases span,
+.weather span{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.amount-of-degrees,
+.amount-of-covid-cases {
+  background: #282828;
+}
+
+.weather img,
+.covid-cases img {
+  background: #282828;
+  margin-left: 1rem;
+}
+
+.weather img {
+  height: 3.5rem;
+}
+
+.covid-cases img {
+  height: 2.5rem;
+}
+
+/* PGM users */
+.pgm-users {
+  margin-top: 1rem;
+  height: 100%;
+  width: 25%;
+  padding: 1rem;
+}
+
+.pgm-users__title {
+  padding: 1rem;
+  display: block;
+  background: #46205e;
+}
+
+.pgm-users__list,
+.gh-users__list {
+  padding: 0;
+  height: 30rem;
+  overflow: scroll;
+  border-bottom: 4px solid #46205e;
+  background: #242424;
+}
+
+.pgm-user,
+.gh-user {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.pgm-user:hover,
+.gh-user:hover {
+  background: #bcbdc3;
+}
+
+.pgm-user:hover .pgm-user__name span{
+  color: #242424;
+}
+
+.gh-user:hover .pgm-username{
+  color: #242424;
+}
+
+.pgm-user__image img,
+.gh-user__image img {
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.pgm-user__name,
+.gh-user__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.pgm-username {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* clock */
+.clock {
+  text-align: center;
+  margin-top: 2rem;
+  border-bottom: 4px solid #46205e;
+  background: #242424;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.clock:hover {
+  background: #bcbdc3;
+}
+
+.clock:hover .clock__title,
+.clock:hover .clock__clock {
+  color: #282828;
+}
+
+.clock__title {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.clock__clock {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+/* repositories */
+.repositories {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.gh-user-details {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.gh-user-details__title {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  z-index: 20;
+}
+
+.gh-user-details__title2 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: transparent;
+  font-size: 3.5rem;
+  font-weight: 900;
+  -webkit-text-stroke: 1px #fff;
+  z-index: 20;
+}
+
+.gh-user-details__image {
+  position: relative;
+  display: inline-block;
+  width: 28rem;
+  margin-top: -1.5rem;
+  margin-right: 1.5rem;
+  z-index: 1;
+  background: #242424;
+}
+
+.details-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.gh-user-details__moto {
+  font-size: 1.4rem;
+}
+
+.gh-user-details__function {
+  color: #bcbdc3;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  left: 26.5rem;
+}
+
+.gh-user-details__function::before {
+  display: inline-block;
+  width: 2rem;
+  height: 4px;
+  content: '';
+  background: #46205e;
+  margin: 0.2rem 1rem 0.2rem 0;
+}
+
+.gh-user-details__type {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 23rem;
+  right: 2rem;
+  font-size: 1.5rem;
+}
+
+.gh-user-details__type::after {
+  display: inline-block;
+  width: 2rem;
+  height: 4px;
+  content: '';
+  background: #46205e;
+  margin: 0.2rem 0 0.2rem 1rem;
+}
+
+/* section repos */
+.gh-user-repositories__list {
+  padding: 0;
+  background: #242424;
+  margin-bottom: 3rem;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-bottom: 1px solid #bcbdc3;
+  transition: all 0.3s ease;
+}
+
+.repo:hover {
+  background: #bcbdc3;
+}
+
+.repo:hover .repo__title,
+.repo:hover .repo__description,
+.repo:hover .repo__lastpush {
+  color: #242424;
+}
+
+/* Section followers */
+.gh-user-followers__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  width: 40rem;
+}
+
+.follower {
+  width: 7.5rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.follower:hover .follower__login{
+  text-decoration: underline;
+}
+
+.follower__img {
+  width: 100%;
+}
+
+.follower__login {
+  display: block;
+  width: 100%;
+  word-break: break-all;
+  margin-top: 0.5rem;
+}
+
+/* Github users */
+.gh-users {
+  margin-top: 1rem;
+  height: 100%;
+  width: 25%;
+  padding: 1rem;
+}
+
+.gh-users__title {
+  padding: 1rem;
+  display: block;
+  background: #46205e;
+}
+
+#search-gh-users {
+  width: 68%;
+  height: 1.5rem;
+  padding: 1rem 0.5rem;
+  background: #f5f5f5;
+  color: #000;
+  border: none
+}
+
+.search-btn {
+  height: 2rem;
+  width: 30%;
+  border: none;
+  background: #bcbdc3;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background: #fff;
+}
+
+.search-btn span {
+  color: #282828;
+}

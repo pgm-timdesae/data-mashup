@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mashup | De Saeger Tim</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <body>
+    <header>
+      <div class="h-layout">
+        <div class="header">
+          <h1 class="header__title">Welcome! Ready to mash up some data?</h1>
+          <div class="covid-cases"></div>
+          <div class="weather"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="h-layout">
+        <div class="flex-layout">
+          <div class="pgm-users">
+            <h2 class="pgm-users__title">PGM Team</h2>
+            <ul class="pgm-users__list"></ul>
+            <div class="clock"></div>
+          </div>
+
+          <div class="repositories">
+            <section class="gh-user-details"></section>
+            <section class="gh-user-repositories">
+              <h2 class="gh-user-repositories__title">Repositories</h2>
+              <ul class="gh-user-repositories__list"></ul>
+            </section>
+            <section class="gh-user-followers">
+              <h2 class="gh-user-followers__title">Followers</h2>
+              <ul class="gh-user-followers__list"></ul>
+            </section>
+          </div>        
+
+          <div class="gh-users">
+            <h2 class="gh-users__title">GitHub users</h2>
+            <form id="frm-search-gh-users" action="" method="get">
+              <label for="search-gh-users">
+                <input type="text" placeholder="Type your name here..." id="search-gh-users">
+                <button class="search-btn"><span>search</span></button>
+              </label>
+            </form>
+            <ul class="gh-users__list"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./static/js/services.js"></script>
+    <script src="./static/js/main.js"></script>
+  </body>
+
+</html>
